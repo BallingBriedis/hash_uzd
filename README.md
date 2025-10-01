@@ -1,13 +1,15 @@
-# Pradžia
+# Pradžia 🍗
 Blokų grandinių technologijų užduotis sukurti hash funkciją.
 
-Darbą atlikome poroje.  
-Marijus Kuprys atliko dalį be AI pagalbos (pasiskirstėme rolėmis mesdami monetą)  
-Dominykas Pronskus atliko dalį su AI pagalba  
+✌ Darbą atlikome poroje.
 
-Ši užduoties dalis daryta pasitelkiant AI įrankiais (ChatGPT, Clyde etc.).
+Marijus Kuprys (🐐) atliko dalį be AI pagalbos (pasiskirstėme rolėmis mesdami monetą)  
 
-# Hash veikimo principas
+Dominykas Pronskus (🐫) atliko dalį su AI pagalba  
+
+🤖 Ši užduoties dalis daryta pasitelkiant AI įrankiais (ChatGPT, Clyde etc.).
+
+# #️⃣Hash veikimo principas
 
 1. Funkcija priima tekstinę įvestį (string) ir pasirenkamą druskos reikšmę.
 2. Inicijuoja pradinę 64-bitų būseną (state), ją pakoreguodama druska, jei druska nenurodyta, tada naudojama 0;
@@ -26,7 +28,7 @@ Dominykas Pronskus atliko dalį su AI pagalba
 7. Atliekamas galutinė lavina, tam kad beveik kiekvienas įvesties pokytis keistų daugumą išėjimo bitų;
 8. Grąžinamas 64-bitų sveikasis skaičius (uint64_t), kurį galima rodyti dešimtainiu arba šešioliktainiu formatu.
 
-# Darbo eiga
+# 💤Darbo eiga
 
 1. Forkinau main repo, kad release'as nesimuštu su mano grupioko release'u.
 2. Visų pirmą padariau meniu, kad programą būtų lengva naudoti.
@@ -37,7 +39,7 @@ Dominykas Pronskus atliko dalį su AI pagalba
 7. Palyginau savo hash'a su SHA-256.
 8. Nelyginau savo hash'o su kursiokų hash'ais, nes užduotis reikalauja ne AI padarytos funkcijos.
 
-# Eksperimentai
+# 🧪Eksperimentai
 
 1. Failai sukurti, hash'as veikia su visais.
 2. Pasinaudojant pirma testine funkcija, įvedus bet kokį .txt failą, visada gaunasi tokio pat ilgio hex skaičius.
@@ -108,3 +110,6 @@ My_hash vs SHA-256
 +   Greitis: Priklauso nuo įvesties dydžio, su mažesnėm įvestim my_hash daro mažiau veiksmų ir dėl to greitesnis, bet su didesnėm įvestim SHA-256 greit susitapatina ir dar greičiau aplenkia pasitelkiant savo itin dideliu pralaidumu.
 +   Tinkamas piknaudiškoms įvestims / Sunku atkurti veikimą: Ne vs Taip.
 +   Žinomas: Ne vs Taip
+
+Šis palyginimas vizualiai apibendrinamas šia nuotrauka:
+![NotFunny](https://github.com/user-attachments/assets/3748c717-3485-425d-ad19-d9fbd8f3316d)
