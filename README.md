@@ -28,7 +28,7 @@ Dominykas Pronskus atliko dalį su AI pagalba
 
 # Darbo eiga
 
-1. Forkinau main repo, kad release'as nesimuštu su mano grupioko release'u
+1. Forkinau main repo, kad release'as nesimuštu su mano grupioko release'u.
 2. Visų pirmą padariau meniu, kad programą būtų lengva naudoti.
 3. Paprašiu free ChatGPT hashinimo funkcijos, gavosi "Chaotic Prime Mixer Hash" funkcija, kuri matoma programoje.
 4. Sukūriau funkcijas rankinio arba failo įvesties.
